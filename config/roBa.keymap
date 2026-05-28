@@ -100,7 +100,7 @@
 
         NUM {
             bindings = <
-&trans      &kp F7  &kp F8  &kp F9  &kp F10                          &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
+&kp TAB     &kp F7  &kp F8  &kp F9  &kp F10                          &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
 &trans      &kp F4  &kp F5  &kp F6  &kp F11  &trans       &trans     &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH
 &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12  &kp F13      &kp EQUAL  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
 &trans      &trans  &trans  &trans  &trans   &trans       &trans     &trans                                                  &kp EQUAL
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &to_layer_0 LANG1  &trans  &to_layer_0 LANG2      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans             &trans                                 &kp LC(V)  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans             &trans  &trans                 &trans  &kp LC(C)  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans             &trans  &trans                 &trans  &trans     &mkp MB4  &trans    &mkp MB5  &trans
+&trans  &trans  &trans  &to_layer_0 LANG1  &trans  &to_layer_0 LANG2      &trans  &trans                                   &trans
             >;
         };
 
