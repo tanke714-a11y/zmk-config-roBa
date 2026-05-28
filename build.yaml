@@ -21,7 +21,6 @@ include:
  - board: seeeduino_xiao_ble
    shield: roBa_R
    snippet: studio-rpc-usb-uart
-   cmake-args: "-DCONFIG_PWM3610_AUTOMOUSE_TIMEOUT_MS=60000"
  - board: seeeduino_xiao_ble
    shield: roBa_L
  - board: seeeduino_xiao_ble
