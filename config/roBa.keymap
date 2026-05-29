@@ -123,7 +123,7 @@
 &trans  &trans  &trans  &trans             &trans                                 &kp LG(V)  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans             &trans  &trans                 &trans  &kp LG(C)  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans             &trans  &trans                 &trans  &trans     &mkp MB4  &trans    &mkp MB5  &trans
-&trans  &trans  &trans  &to_layer_0 LANG1  &trans  &to_layer_0 LANG2      &trans  &trans                                   &trans
+&trans  &trans  &trans  &to_layer_0 LANG2  &trans  &to_layer_0 LANG1      &trans  &trans                                   &trans
             >;
         };
 
